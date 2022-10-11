@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  height: 120px;
+  color: #FFFFFF;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  background-color: #4056A1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-family: 'Bungee';
+}
+
+.nav-right {
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  outline: none;
+}
+
+.down-arrow {
+  color: #f21010;
+  position: relative;
+  text-align: center;
+}

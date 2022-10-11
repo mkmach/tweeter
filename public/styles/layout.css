@@ -14,10 +14,22 @@ html {
  * Global layout stuff
  */
 
+.parent {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: end;
+  flex-grow: 100px;
+  padding: 3rem;
+}
+
 body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif
+  
+ 
 }
 
 /*
